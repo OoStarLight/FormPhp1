@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+body{
+    background-color: #232222;
+}
+
+.main{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+input{
+    background-color: #3b3b3b;
+    margin: 10px 0;
+    padding: 10px 5px;
+}
+
+select{
+    background-color: #3b3b3b;
+    margin: 10px 0;
+    width: 100px;
+}
+
+button{
+    background-color: rgb(81, 81, 233);
+    padding: 10px 5px;
+    margin-left: 120px;
+}

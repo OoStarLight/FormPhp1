@@ -15,9 +15,9 @@
         <form action="script.php" method="post">
             <h1>Pet's Form</h1>
 
-            <input type="text" name="firstname" placeholder="Enter your firstname ..."> <br>
-            <input type="text" name="lastname" placeholder="Enter your lastname ..."> <br>
-            <select name="pets">
+            <input type="text" name="firstname" placeholder="Enter your firstname ..." require> <br>
+            <input type="text" name="lastname" placeholder="Enter your lastname ..." require> <br>
+            <select name="pets" require>
                 <option value="none">none</option>
                 <option value="dog">dog</option>
                 <option value="cat">cat</option>
